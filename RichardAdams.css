@@ -1,0 +1,86 @@
+:root {
+  --background-color1: #101820FF;
+  --background-color2: #fff;
+  --text-color1: #fff;
+  --text-color2: #101820FF;
+}
+* {
+  margin: 0;
+  border: 0;
+}
+.page1 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--background-color1);
+  color: var(--text-color1);
+  font-family: papyrus, cursive, san-serif;
+  text-align: center;
+}
+#title {
+  padding-top: 15vh;
+  font-size: 4rem;
+}
+.lifespan {
+  font-size: 2rem;
+  margin-top: -2.5vh;
+  margin-bottom: 20vh;
+}
+.play {
+  display: block;
+  margin: auto;
+}
+.page2 {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 5%;
+  background-color: var(--background-color2);
+  color: var(--text-color2);
+  position: relative;
+}
+#img-div {
+  padding: 10px;
+  width: 100%;
+}
+#img-caption {
+  font-size: 3rem;
+  text-align: center;
+  max-width: 80%;
+}
+.image {
+}
+#image {
+  max-height: 60vh;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.page3 {
+  min-height: 110vh;
+  width: 100%;
+  background-color: var(--background-color1);
+  color: var(--text-color1);
+  position: relative;
+  text-align: center;
+}
+.bio-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 5%;
+}
+.bio-text {
+  font-size: 1.4rem;
+  padding: 0 10%;
+  line-height: 150%;
+}
+.line {
+  height: 1px;
+  width: 60%;
+  border: 1px white solid;
+  margin: 5% auto;
+}
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}
