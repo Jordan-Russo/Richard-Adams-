@@ -47,15 +47,15 @@
   max-width: 80%;
 }
 .image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 #image {
   max-height: 60vh;
   max-width: 100%;
   display: block;
   margin: auto;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 .page3 {
   min-height: 110vh;
